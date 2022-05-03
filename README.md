@@ -3,7 +3,7 @@
 This project includes a complete implementation of the driver, daemon and a client for displaying stuff
 on the 'Hanover Display' series flipdot display.
 
-![RSS feed example](docs/rssfeed.gif)
+![RSS feed example](docs/HanoverAnimation.gif)
 
 ## Architecture
 
@@ -90,7 +90,7 @@ can be mounted on either side, to the driver code. But, as it turns out, there's
 firmware already supports this. You need to turn the display off, pop up the back cover and locate the jumper
 array circles on the photo below.
 
-![Screen roation jumper switch](docs/rorate_jumper.jpg)
+![Screen roation jumper switch](docs/HanoverPCBJumper.png)
 
 Each jumper position of marked by a letter. Locate the 'E' position and move the jumper to it. Close the lid
 of the display and power it back on. The initial 'bootup' sequence will be the same as in 'normal' display
