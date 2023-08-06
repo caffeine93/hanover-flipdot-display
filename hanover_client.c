@@ -49,7 +49,7 @@ struct rss_data {
 	uint8_t *data;
 };
 
-size_t rss_write(char *ptr, size_t size, size_t nmemb, void *userdata)
+static size_t rss_write(char *ptr, size_t size, size_t nmemb, void *userdata)
 {
 	struct rss_data *data = userdata;
 	size_t recv_size = size * nmemb;
